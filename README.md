@@ -42,7 +42,7 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
 <img width="1008" alt="Screen Shot 2023-07-15 at 3 24 49 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/f96fe3ba-2dfe-4078-b274-3fbec029f02e">
 
 
-(I'd generally advise sticking to a whole number for your `Minimum Deployment` version numbers, so 16.0 instead of 16.4 since packages have to be maintained often by companies in order to accomodate newer versions of Xcode projects and thats typically not the case.)
+(Sidenote: I'd generally advise sticking to a whole number for your `Minimum Deployment` project version numbers, so 16.0 instead of 16.4 since packages have to be maintained often by companies in order to accomodate newer versions of Xcode projects and thats typically not the case.)
 
 &nbsp;
 
@@ -71,7 +71,7 @@ You'll have to wait at least 24 hours for the events to begin showing up in your
 
 [https://stackoverflow.com/questions/60140204/firebase-analytics-custom-events-not-showing-in-events-list](url)
 
-Congratulations on fixing it!
+Congratulations on fixing it! And dont forget that StackOverflow is your friend
 
 &nbsp;
 &nbsp;
