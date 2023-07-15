@@ -66,6 +66,7 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
 
 &nbsp;
 
+You'll know the setup was successful once you see the 'Saber Library[55933:1131344] 10.13.0 - [FirebaseAnalytics][I-ACS023016] Analytics is ready to receive events' statements in the debug console (lldb). 
 You'll have to wait at least 24 hours for the events to begin showing up in your Firebase Analytics console 
 
 [https://stackoverflow.com/questions/60140204/firebase-analytics-custom-events-not-showing-in-events-list](url)
