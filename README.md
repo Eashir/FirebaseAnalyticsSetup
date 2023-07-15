@@ -1,10 +1,8 @@
 # FirebaseAnalyticsSetup
 
-
-
 Goodjob on adding the Google plist properly as well as adding the Bundle ID without any typos
 
-
+&nbsp;
 
 ## Initial Firebase Package Setup
 
