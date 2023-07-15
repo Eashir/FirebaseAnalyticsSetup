@@ -6,7 +6,6 @@ Goodjob on adding the Google plist properly as well as adding the Bundle ID with
 
 ## Initial Firebase Package Setup
 
-&nbsp;
 
 1. Make sure to install the correct `Firebase Analytics` package with the Swift Package Manager. 
 
