@@ -30,7 +30,7 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
 
 3. You accidentally put the `UIApplicationDelegateAdaptor` in the `ContentView` struct. It belongs in the `Saber_LibraryApp` struct!
 
-<img width="856" alt="Screen Shot 2023-07-15 at 3 17 55 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/fce3e1e9-84c0-49d8-856b-08084d2dc64c">
+<img width="856" alt="Screen Shot 2023-07-15 at 3 17 55 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/8c58cace-3463-4e37-a373-9530df11086b">
 
 4. Move your AppDelegate to this same file, and add `import FirebaseCore` at the top
    
@@ -38,7 +38,7 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
    
 5. In your `GoogleService-info.plist`, set the `IS_ANALYTICS_ENABLED` to `YES`
    
-<img width="1008" alt="Screen Shot 2023-07-15 at 3 24 49 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/f96fe3ba-2dfe-4078-b274-3fbec029f02e">
+<img width="1008" alt="Screen Shot 2023-07-15 at 3 24 49 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/1e49c24d-d9f5-467d-b0a8-f8bb1843ba97">
 
 
 (Sidenote: I'd generally advise sticking to a whole number for your `Minimum Deployment` project version numbers, so 16.0 instead of 16.4 since packages have to be maintained often by companies in order to accomodate newer versions of Xcode projects and thats typically not the case.)
@@ -53,16 +53,16 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
     }
   ```
 
-<img width="779" alt="Screen Shot 2023-07-15 at 3 32 39 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/59e53fa2-3ff9-4138-a4e6-e128965d7939">
+<img width="779" alt="Screen Shot 2023-07-15 at 3 32 39 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/84ab481a-cb3a-4530-a5f2-c8bf963b9ec5">
 
 &nbsp;
 
 7. Lastly, you want to go into the scheme editor and add this `-FIRAnalyticsDebugEnabled`
-<img width="855" alt="Screen Shot 2023-07-15 at 3 46 19 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/bdebbe38-ccc9-4322-90a7-57b1f9b28047">
+<img width="855" alt="Screen Shot 2023-07-15 at 3 46 19 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/f9db653d-ff12-453e-98db-ef42e5a32ef0">
 
 &nbsp;
 
-<img width="948" alt="Screen Shot 2023-07-15 at 3 46 31 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/652b5291-c634-4d06-a999-f231ea3eb344">
+<img width="948" alt="Screen Shot 2023-07-15 at 3 46 31 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/31fae904-cb0d-4d60-9e6b-fef30ae56813">
 
 &nbsp;
 
