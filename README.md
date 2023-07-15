@@ -35,9 +35,11 @@ I'd generally advise sticking to a whole number for your Minimum Deployment vers
 
 5. Add this bit of code into your ContentView struct
    
-  ```   init() {
-        Analytics.logEvent("First Log!", parameters: [AnalyticsParameterItemName: "Test"])
-    }```
+  ```
+    init() {
+       Analytics.logEvent("First Log", parameters: [AnalyticsParameterItemName: "Test"])
+    }
+  ```
    
 #Sources
 
