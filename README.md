@@ -9,7 +9,7 @@ Goodjob on adding the Google plist properly as well as adding the Bundle ID with
 
 1. Make sure to install the correct `Firebase Analytics` package with the Swift Package Manager. 
 
-<img width="787" alt="Screen Shot 2023-07-15 at 3 02 06 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/bac188de-37a3-4ab2-8657-f0aba457bd44">
+<img width="787" alt="Screen Shot 2023-07-15 at 3 02 06 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/bced5c45-6163-447a-af6a-3026e8baf3d9">
 
 &nbsp;
 
