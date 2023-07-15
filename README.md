@@ -56,11 +56,22 @@ I'd generally advise sticking to a whole number for your `Minimum Deployment` ve
 
 6. Lastly, you want to go into the scheme editor and add this `-FIRAnalyticsDebugEnabled`
 <img width="855" alt="Screen Shot 2023-07-15 at 3 46 19 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/bdebbe38-ccc9-4322-90a7-57b1f9b28047">
+
+&nbsp;
+
 <img width="948" alt="Screen Shot 2023-07-15 at 3 46 31 AM" src="https://github.com/Eashir/FirebaseAnalyticsSetup/assets/20934684/652b5291-c634-4d06-a999-f231ea3eb344">
 
 &nbsp;
 
+You'll have to wait at least 24 hours for the events to begin showing up in your Firebase Analytics console 
+
+[https://stackoverflow.com/questions/60140204/firebase-analytics-custom-events-not-showing-in-events-list](url)
+
+
+&nbsp;
+&nbsp;
+
 # Sources
 
-https://firebase.google.com/docs/ios/setup
-https://firebase.google.com/docs/analytics/get-started?platform=ios
+[https://firebase.google.com/docs/ios/setup](url)
+[https://firebase.google.com/docs/analytics/get-started?platform=ios](url)
