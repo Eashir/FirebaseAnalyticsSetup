@@ -23,7 +23,9 @@ So remove the Firebase packages, reinstall them and be sure to check the right b
 
 &nbsp;
 
-2. Remove the `import Firebase` statements at the top of your `ContentView.swift` file. Add `import FirebaseAnalytics` instead
+2. Remove the `import Firebase` statements at the top of your `ContentView.swift` file.
+  
+   Add `import FirebaseAnalytics` instead
 
 (For more Firebase services, you'll have to repeat this process of reinstalling and then importing their respective libraries. This is a good habit as Xcode can be funky sometimes and so package errors could be resolved simply by removing and reinstalling)
 
